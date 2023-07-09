@@ -103,7 +103,7 @@ function Work() {
 
     const handleCreateShortenLink = async (name: string, longURL: string) => {
         let generatedKey = nanoid(5);
-        let generatedURL = `${window.location.host}/link/${generatedKey}`;
+        let generatedURL = `${'https://short-it-bae6.onrender.com'}/link/${generatedKey}`;
 
         // if (form.preferedAlias !== '') {
         //     generatedKey = form.preferedAlias;
