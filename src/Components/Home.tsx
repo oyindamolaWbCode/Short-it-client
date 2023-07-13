@@ -120,7 +120,7 @@ function Home() {
     };
 
       const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-        if (!user) {
+        if (user === null) {
           event.preventDefault();
           window.location.href = '/signup';
         }

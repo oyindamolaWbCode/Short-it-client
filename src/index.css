@@ -603,3 +603,33 @@ bottom: -601.98%;
  /* Ends here */
 
  
+ /* Media Queries */
+
+ /* Mobiles */
+
+ @media (min-width: 374px) and (max-width: 480px){
+
+  .features ul li{
+    display: none;
+  }
+
+  .Nav{
+    padding: 10px 10px;
+  }
+
+   .px-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Logs button{
+    display: none;
+  }
+
+ }
+
+
+ /* Tablets */
+ @media (min-width: 767px) and (max-width: 769px){
+
+ }

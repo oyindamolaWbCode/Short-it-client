@@ -41,10 +41,6 @@ function SignUp() {
             [event.target.name]: event.target.value,
         }));
 
-    // const handleSignup = async () => {
-    //     await auth.createUserWithEmailAndPassword(form.email, form.password);
-    // };
-
     console.log(auth.currentUser);
 
      const navigate = useNavigate();
