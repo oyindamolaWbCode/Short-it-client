@@ -134,7 +134,7 @@ function Home() {
 
         <div className="Homepage">
             <div className="Nav d-flex">
-                <div className="logo px-5">
+                <div className="logo ">
                     <img src={Logo}
                         alt=""
                     />
@@ -150,7 +150,7 @@ function Home() {
                         <li>FAQs</li>
                     </ul>
                 </div>
-                <div className="Logs d-flex justify-content-end px-5">
+                <div className="Logs d-flex justify-content-end">
                     <ul>
                         <a href="/Login"><li style={{ color: '#0065FE' }}>Log In</li></a>
                     </ul>
@@ -158,7 +158,7 @@ function Home() {
                 </div>
             </div>
             <div className="optimize mt-5">
-                <h2 style={{ textAlign: 'center', lineHeight: '1.5cm', fontFamily: 'Lato', fontWeight: 'bolder' }}> Optimize Your Online Experience with Our <br />Advanced <b>URL Shortening</b> Solution</h2>
+                <h2 className="optimizeH"> Optimize Your Online Experience with Our <br />Advanced <b>URL Shortening</b> Solution</h2>
                 <img src={line}
                     alt=""
                     className="line-shorter"
