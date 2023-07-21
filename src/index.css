@@ -115,15 +115,24 @@ border-radius: 24px;
   padding: 60px 120px;
 }
 
+
+.choose-header-heading{
+  position: absolute;
+   bottom: -430px; 
+   left: 140px;
+}
+
 .plans-price-header{
   text-align: center;
   margin: auto;
 
 }
 
-/* .plans-categories{
-  padding: 50px 140px;
-} */
+.plans-categories-paragragh{
+  width:550px;
+  margin: auto;
+  padding-bottom: 40px;
+}
 
 .plans{
   padding: 90px 180px;
@@ -250,21 +259,6 @@ input[type="text"]{
 .terms{
   color:#005AE2;
 }
-
-/* .faqs .faq .faq-question::after {
-  content: "+";
-  position: absolute;
-  top: 50%;
-  right: 0px;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
-  transition: all 0.2s ease;
-}
-
-.faqs .faq.open .faq-question::after {
-  content: "-";
-} */
 
 /* faq section */
 
@@ -633,6 +627,57 @@ bottom: -601.98%;
   .client-figures{
     padding: 10px 20px;
   }
+
+  .figuresInBold{
+    text-align: center;
+  }
+
+  .whychoose{ 
+    padding: 50px 20px;
+  }
+
+  .choose-header-heading{
+    position: absolute;
+     bottom: -400px;
+     left: 50px;
+  }
+
+  .plans-categories-paragragh{
+    text-align: center;
+    width:100%;
+  }
+
+  .plans-price-header img{
+    display: none;
+  }
+
+  .plans {
+    display: none ;
+  }
+
+  .price-button{
+    display: none;
+
+  }
+  .FAQ-section{
+    padding: 20px 20px;
+  }
+
+  .faqs{
+    padding: 10px;
+  }
+
+  .plan-one{
+    display: none;
+  }
+
+  .plan-two{
+    display:none;
+
+  }
+
+  
+
  }
 
 

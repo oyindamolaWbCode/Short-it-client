@@ -205,14 +205,16 @@ function Home() {
                         <h3 style={{ fontFamily: 'Manrope', fontWeight: "bolder" }}>One Stop</h3>
                         <h3 style={{ fontFamily: 'Manrope', fontWeight: "bolder" }}>Four <b>Posibilities</b></h3>
                     </div>
+                    
                     <div className="figures col-md">
+                      
                         <h4 style={{ fontFamily: 'Manrope', fontWeight: "bolder" }}>3M</h4>
                         <p style={{ lineHeight: '1.1em', letterSpacing: "0.15em" }}>Active Users</p>
                     </div>
                     <div className="figures col-md">
                         <h4 style={{ fontFamily: 'Manrope', fontWeight: "bolder" }}>60M</h4>
                         <p style={{ lineHeight: '1.1em', letterSpacing: "0.15em" }}>Links &amp; QR <br /> codes created</p>
-                    </div>
+                        </div>
                     <div className="figures col-md">
                         <h4 style={{ fontFamily: 'Manrope', fontWeight: "bolder" }}>1B</h4>
                         <p style={{ lineHeight: '1.1em', letterSpacing: "0.15em" }}>Clicked  &amp; Scanned < br /> connections</p>
@@ -221,8 +223,7 @@ function Home() {
                         <h4 style={{ fontFamily: 'Manrope', fontWeight: "bolder" }}>300k</h4>
                         <p style={{ lineHeight: '1.1em', letterSpacing: "0.15em" }}>App Integration</p>
                     </div>
-                </div>
-                
+                    </div>         
             </div>
             <div className="whychoose">
                 <div className="row">
@@ -232,7 +233,7 @@ function Home() {
                                 alt=""
                                 style={{}}
                             />
-                            <h2 style={{ position: "absolute", bottom: "-430px", left: "140px" }}>Why choose <b>Scissors</b></h2>
+                            <h2 className="choose-header-heading">Why choose <b>Scissors</b></h2>
                         </div>
                         <div className="choose-brief">
                             <p className="p-3">Scissors is the hub of everything that has to do with your link management. We shorten your URLs, allow you creating custom ones for your personal, business, event usage. Our swift QR code creation, management and usage tracking with advance analytics for all of these is second to none. </p>
@@ -283,7 +284,7 @@ function Home() {
                         style={{ position: "absolute", left: "440px" }}
                     />
                     <h4 style={{ fontSize: "40px" }}>A <b>price perfect</b> for your needs.</h4>
-                    <p style={{ width: "550px", margin: "auto", paddingBottom: "40px" }}>From catering for your personal, business, event, socials needs, you can be rest assured we have you in mind in our pricing.</p>
+                    <p className="plans-categories-paragragh">From catering for your personal, business, event, socials needs, you can be rest assured we have you in mind in our pricing.</p>
                 </div>
                 <div className="plans d-flex justify-content-between">
                     <div className="plan-one">
